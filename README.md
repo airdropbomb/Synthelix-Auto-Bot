@@ -23,7 +23,7 @@
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/airdropinsiders/Synthelix-Auto-Bot.git
+git clone https://github.com/airdropbomb/Synthelix-Auto-Bot.git
 cd Synthelix-Auto-Bot
 ```
 
