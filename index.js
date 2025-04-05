@@ -332,9 +332,13 @@ async function monitorAndRestartNodes() {
   while (true) {
     console.clear();
 
-    console.log('\x1b[36m%s\x1b[0m', `━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`);
-    console.log('\x1b[36m%s\x1b[0m', `  SYNTHELIX AUTO BOT - AIRDROP INSIDERS`);
-    console.log('\x1b[36m%s\x1b[0m', `━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n`);
+    // အသစ် banner ထည့်ထားတယ်
+    console.log('\x1b[36m%s\x1b[0m', ` █████╗ ██████╗ ██████╗     ███╗   ██╗ ██████╗ ██████╗ ███████╗`);
+    console.log('\x1b[36m%s\x1b[0m', `██╔══██╗██╔══██╗██╔══██╗    ████╗  ██║██╔═══██╗██╔══██╗██╔════╝`);
+    console.log('\x1b[36m%s\x1b[0m', `███████║██║  ██║██████╔╝    ██╔██╗ ██║██║   ██║██║  ██║█████╗  `);
+    console.log('\x1b[36m%s\x1b[0m', `██╔══██║██║  ██║██╔══██╗    ██║╚██╗██║██║   ██║██║  ██║██╔══╝  `);
+    console.log('\x1b[36m%s\x1b[0m', `██║  ██║██████╔╝██████╔╝    ██║ ╚████║╚██████╔╝██████╔╝███████╗`);
+    console.log('\x1b[36m%s\x1b[0m', `╚═╝  ╚═╝╚═════╝ ╚═════╝     ╚═╝  ╚═══╝ ╚═════╝ ╚═════╝ ╚══════╝\n`);
     console.log(`🔍 Checking ${privateKeys.length} wallets at ${new Date().toLocaleString()}\n`);
 
     let activeWallets = 0;
