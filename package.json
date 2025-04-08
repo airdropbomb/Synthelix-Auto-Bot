@@ -14,3 +14,5 @@
         "https-proxy-agent": "^5.0.0",
         "socks-proxy-agent": "^6.0.0",
         "user-agents": "^1.0.1"
+    }
+}
