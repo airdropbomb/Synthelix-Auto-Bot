@@ -420,7 +420,7 @@ async function monitorNodesOnce(inLoop = false) {
         const statusInfo = await getNodeStatus(session.cookies, session.commonHeaders, session.axiosConfig);
         const pointsInfo = await getPointsInfo(session.cookies, session.commonHeaders, session.axiosConfig);
 
-        console.log('\x1b[36m%s\x1b[0m', `${walletLabel}: ${short Angka${shortAddress}`);
+        console.log('\x1b[36m%s\x1b[0m', `${walletLabel}: ${shortAddress}`);
         console.log('\x1b[33m%s\x1b[0m', `Status: ${statusInfo.nodeRunning ? 'Running' : 'Stopped'}`);
         console.log('\x1b[33m%s\x1b[0m', `Time left: ${formatTime(statusInfo.timeLeft)}`);
         console.log('\x1b[33m%s\x1b[0m', `Current points: ${statusInfo.currentEarnedPoints || 0}`);
